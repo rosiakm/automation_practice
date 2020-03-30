@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a54fc19a-6b4d-4d40-8e94-c837dc86fdba" name="Default Changelist" comment="" />
+    <list default="true" id="a54fc19a-6b4d-4d40-8e94-c837dc86fdba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation_practice/Pages/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation_practice/Pages/ShoppingCart.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,6 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZWM0zHuIjvwqPed1JTd2Xq0Y4z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,6 +46,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="JUnit.RegistrationTest.registrationWithValidValuesTest">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -140,11 +149,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-1128" y="186" key="#Inspections" timestamp="1585058340724">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-1128" y="186" key="#Inspections/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585058340724" />
+    <state x="-1128" y="186" key="#Notifications" timestamp="1585560990711">
+      <screen x="-1440" y="97" width="1440" height="860" />
+    </state>
+    <state x="-1128" y="186" key="#Notifications/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585560990711" />
     <state x="-1128" y="186" key="#Project_Structure" timestamp="1585297766098">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
@@ -169,26 +185,34 @@
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-990" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585232047370" />
+    <state x="-1101" y="122" key="CommitChangelistDialog2" timestamp="1585563480401">
+      <screen x="-1440" y="97" width="1440" height="860" />
+    </state>
+    <state x="-1101" y="122" key="CommitChangelistDialog2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585563480401" />
+    <state x="-1348" y="189" width="1256" height="676" key="DiffContextDialog" timestamp="1585563595031">
+      <screen x="-1440" y="97" width="1440" height="860" />
+    </state>
+    <state x="-1348" y="189" width="1256" height="676" key="DiffContextDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585563595031" />
     <state x="-940" y="283" key="FileChooserDialogImpl" timestamp="1585295681653">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-940" y="283" key="FileChooserDialogImpl/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585295681653" />
-    <state width="1397" height="215" key="GridCell.Tab.0.bottom" timestamp="1585318759984">
+    <state width="1397" height="215" key="GridCell.Tab.0.bottom" timestamp="1585558012719">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585318759984" />
-    <state width="1397" height="215" key="GridCell.Tab.0.center" timestamp="1585318759984">
+    <state width="1397" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585558012719" />
+    <state width="1397" height="215" key="GridCell.Tab.0.center" timestamp="1585558012719">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="215" key="GridCell.Tab.0.center/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585318759984" />
-    <state width="1397" height="215" key="GridCell.Tab.0.left" timestamp="1585318759983">
+    <state width="1397" height="215" key="GridCell.Tab.0.center/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585558012719" />
+    <state width="1397" height="215" key="GridCell.Tab.0.left" timestamp="1585558012719">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="215" key="GridCell.Tab.0.left/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585318759983" />
-    <state width="1397" height="215" key="GridCell.Tab.0.right" timestamp="1585318759984">
+    <state width="1397" height="215" key="GridCell.Tab.0.left/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585558012719" />
+    <state width="1397" height="215" key="GridCell.Tab.0.right" timestamp="1585558012719">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="215" key="GridCell.Tab.0.right/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585318759984" />
+    <state width="1397" height="215" key="GridCell.Tab.0.right/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585558012719" />
     <state width="1397" height="266" key="GridCell.Tab.1.bottom" timestamp="1585148363814">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
@@ -209,10 +233,14 @@
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-1190" y="183" key="Maven.ArtifactSearchDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585212045473" />
-    <state x="-1240" y="102" key="SettingsEditor" timestamp="1585125532179">
+    <state x="-1240" y="102" key="SettingsEditor" timestamp="1585560985109">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-1240" y="102" key="SettingsEditor/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585125532179" />
+    <state x="-1240" y="102" key="SettingsEditor/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585560985109" />
+    <state x="-911" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585563595012">
+      <screen x="-1440" y="97" width="1440" height="860" />
+    </state>
+    <state x="-911" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585563595012" />
     <state x="-1057" y="277" width="672" height="678" key="search.everywhere.popup" timestamp="1585060274012">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>

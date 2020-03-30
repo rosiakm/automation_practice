@@ -69,13 +69,13 @@ public class ShoppingCart extends BasePage
             logger.info("I am checking quantity of selected product ");
             String text = quantityTextAttribute.getAttribute("value");
             System.out.println(text);
-            assertThat(text).isEqualTo("1");
+            assertThat(text).isEqualTo("2");
             logger.info("Quantity checked");
         }
         else
             logger.info("There is more than one item");
             logger.info("I am checking how many items selected");
-            assertThat(getShoppingTableContent().size()).isEqualTo(1);
+            assertThat(getShoppingTableContent().size()).isEqualTo(2);
             logger.info("The number of items checked");
         return this;
     }
