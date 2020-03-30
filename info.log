@@ -1,0 +1,12 @@
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Configuration.DriverSetUp  - On test start
+[main] INFO  automation_practice.Pages.Home  - I am opening the SignIn page
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.SignIn  - I am creating new account
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.Registration  - I am filling registration form with valid values
+[main] INFO  automation_practice.Pages.Registration  - Registration form filled with valid values
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.User  - I am checking that user was correctly created
+[main] INFO  automation_practice.Pages.User  - User created correctly
+[main] INFO  automation_practice.Configuration.DriverSetUp  - On test quit
