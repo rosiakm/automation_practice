@@ -42,9 +42,20 @@ public class SearchResults extends BasePage
     {
         logger.info("I am adding a dress to a shopping cart");
         Actions actions = new Actions(DriverFactory.getDriver());
-        actions.moveToElement(firstProductImage).perform();
-        WaitForElement.WaitForElementToBeDisplayed(firstProductViewButton);
-        firstProductViewButton.click();
+        for (int i = 1; i <= 3;)
+        {
+            actions.moveToElement(firstProductImage).perform();
+            WaitForElement.WaitForElementToBeDisplayed(firstProductViewButton);
+            if (firstProductViewButton.isDisplayed())
+            {
+                firstProductViewButton.click();
+                break;
+            }
+            else
+            {
+                i++;
+            }
+        }
         DriverFactory.getDriver().switchTo().frame(0);
         new Select(sizeSelectList).selectByValue("3");
         greenColorButton.click();
