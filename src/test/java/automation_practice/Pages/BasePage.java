@@ -1,7 +1,6 @@
 package automation_practice.Pages;
 
 import automation_practice.Configuration.DriverFactory;
-import automation_practice.Helpers.Screenshots;
 import automation_practice.Helpers.WaitForElement;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;

@@ -68,25 +68,23 @@ public class Registration extends BasePage
     }
 
     @Step
-    public User fillRegistrationFormWithValidValues()
+    public void fillRegistrationFormWithValidValues()
     {
         logger.info("I am filling registration form with valid values");
         fillRegistrationForm(true);
         Screenshots.takeScreenshot(DriverFactory.getDriver());
         registerButton.click();
         logger.info("Registration form filled with valid values");
-        return new User();
     }
 
     @Step
-    public Registration fillRegistrationFormWithInvalidValues()
+    public void fillRegistrationFormWithInvalidValues()
     {
         logger.info("I am filling registration form with invalid values");
         fillRegistrationForm(false);
         Screenshots.takeScreenshot(DriverFactory.getDriver());
         registerButton.click();
         logger.info("Registration form filled with invalid values");
-        return this;
     }
 
     @Step
@@ -100,7 +98,7 @@ public class Registration extends BasePage
 
     private List<String> getAlertMessageContent()
     {
-        List<String> errorMessages = new ArrayList<String>();
+        List<String> errorMessages = new ArrayList<>();
         for (WebElement error : errors)
         {
            errorMessages.add(error.getText());

@@ -29,38 +29,35 @@ public class ShoppingCart extends BasePage
     Logger logger = Logger.getLogger(ShoppingCart.class);
 
     @Step
-    public ShoppingCart deleteItemFromShoppingCart()
+    public void deleteItemFromShoppingCart()
     {
         logger.info("I am deleting item from shopping cart");
         deleteItemButton.click();
         WaitForElement.WaitForElementToBeDisplayed(alertWarning);
         Screenshots.takeScreenshot(DriverFactory.getDriver());
         logger.info("Item deleted from shopping cart");
-        return this;
     }
 
     @Step
-    public ShoppingCart checkThatShoppingCartOpened()
+    public void checkThatShoppingCartOpened()
     {
         logger.info("I am checking that shopping cart opened correctly");
         String actualNavigator = navigator.getText();
         String expectedNavigator = "Your shopping cart";
         assertThat(actualNavigator).isEqualTo(expectedNavigator);
         logger.info("Shopping cart opened correctly");
-        return this;
     }
 
     @Step
-    public ShoppingCart checkTheSizeOfShoppingCart()
+    public void checkTheSizeOfShoppingCart()
     {
         logger.info("I am checking size of shopping cart");
         assertThat(getShoppingTableContent().size()).isEqualTo(1);
         logger.info("Size checked");
-        return this;
     }
 
     @Step
-    public ShoppingCart checkTheSizeOfShoppingCartWithSomeProducts()
+    public void checkTheSizeOfShoppingCartWithSomeProducts()
     {
         logger.info("I am checking if there is only one item in shopping cart");
         if(getShoppingTableContent().size() == 1)
@@ -73,15 +70,16 @@ public class ShoppingCart extends BasePage
             logger.info("Quantity checked");
         }
         else
+        {
             logger.info("There is more than one item");
             logger.info("I am checking how many items selected");
             assertThat(getShoppingTableContent().size()).isEqualTo(2);
             logger.info("The number of items checked");
-        return this;
+        }
     }
 
     @Step
-    public ShoppingCart checkThatShoppingCartIsEmpty()
+    public void checkThatShoppingCartIsEmpty()
     {
         logger.info("I am checking if shopping cart is empty");
         String actualAlert = alertWarning.getText();
@@ -89,7 +87,6 @@ public class ShoppingCart extends BasePage
         assertThat(getShoppingTableContent().size()).isEqualTo(0);
         assertThat(actualAlert).isEqualTo(expectedAlert);
         logger.info("Shopping cart checked");
-        return this;
     }
 
     public List<String> getShoppingTableContent()

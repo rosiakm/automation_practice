@@ -25,12 +25,11 @@ public class SignIn extends BasePage
     Logger logger = Logger.getLogger(SignIn.class);
 
     @Step
-    public Registration createAnAccount()
+    public void createAnAccount()
     {
         logger.info("I am creating new account");
         emailInput.sendKeys(dataFaker.setEmailAddress());
         Screenshots.takeScreenshot(DriverFactory.getDriver());
         createAnAccountButton.click();
-        return new Registration();
     }
 }

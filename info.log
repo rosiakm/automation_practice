@@ -24,21 +24,18 @@
 [main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
 [main] INFO  automation_practice.Configuration.DriverSetUp  - On test start
 [main] INFO  automation_practice.Pages.Home  - I am searching for dress
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.SearchResults  - I am checking that search page opened correctly
+[main] INFO  automation_practice.Pages.SearchResults  - Search page opened correctly
+[main] INFO  automation_practice.Pages.SearchResults  - I am adding a dress to a shopping cart
+[main] INFO  automation_practice.Pages.SearchResults  - Dress added
+[main] INFO  automation_practice.Pages.SearchResults  - I am opening a shopping cart
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am deleting item from shopping cart
+[main] INFO  automation_practice.Pages.ShoppingCart  - Item deleted from shopping cart
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking if shopping cart is empty
+[main] INFO  automation_practice.Pages.ShoppingCart  - Shopping cart checked
 [main] INFO  automation_practice.Configuration.DriverSetUp  - On test quit
-[main] INFO  automation_practice.Helpers.MyListener  - Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 33be1a193d0a207310307b8a7e3e9dc4
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
-[main] INFO  automation_practice.Helpers.MyListener  - Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 33be1a193d0a207310307b8a7e3e9dc4
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
 [main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
 [main] INFO  automation_practice.Configuration.DriverSetUp  - On test start
 [main] INFO  automation_practice.Pages.Home  - I am searching for dress
@@ -46,42 +43,18 @@ Session ID: 33be1a193d0a207310307b8a7e3e9dc4
 [main] INFO  automation_practice.Pages.SearchResults  - I am checking that search page opened correctly
 [main] INFO  automation_practice.Pages.SearchResults  - Search page opened correctly
 [main] INFO  automation_practice.Pages.SearchResults  - I am adding a dress to a shopping cart
-[main] INFO  automation_practice.Configuration.DriverSetUp  - On test quit
-[main] INFO  automation_practice.Helpers.MyListener  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (1ad570cef7a5ff2085f5800d45a7d652)] -> xpath: //a[@class='quick-view']] (tried for 10 second(s) with 1000 milliseconds interval)
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: unknown
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
-[main] INFO  automation_practice.Helpers.MyListener  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (1ad570cef7a5ff2085f5800d45a7d652)] -> xpath: //a[@class='quick-view']] (tried for 10 second(s) with 1000 milliseconds interval)
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: unknown
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
+[main] INFO  automation_practice.Pages.SearchResults  - Dress added
+[main] INFO  automation_practice.Pages.SearchResults  - I am adding a dress to a shopping cart
+[main] INFO  automation_practice.Pages.SearchResults  - Dress added
+[main] INFO  automation_practice.Pages.SearchResults  - I am opening a shopping cart
 [main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
-[main] INFO  automation_practice.Configuration.DriverSetUp  - On test start
-[main] INFO  automation_practice.Pages.Home  - I am searching for dress
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking that shopping cart opened correctly
+[main] INFO  automation_practice.Pages.ShoppingCart  - Shopping cart opened correctly
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking if there is only one item in shopping cart
+[main] INFO  automation_practice.Pages.ShoppingCart  - There is one item in shopping cart
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking quantity of selected product 
+[main] INFO  automation_practice.Pages.ShoppingCart  - Quantity checked
 [main] INFO  automation_practice.Configuration.DriverSetUp  - On test quit
-[main] INFO  automation_practice.Helpers.MyListener  - Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:55488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dc162ae1a5e5b914713abb903b1931a1
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
-[main] INFO  automation_practice.Helpers.MyListener  - Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:55488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dc162ae1a5e5b914713abb903b1931a1
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
-[main] INFO  automation_practice.Helpers.MyListener  - Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:55578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 34da7aec1dd79730796086643df38dcc
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
 [main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
 [main] INFO  automation_practice.Configuration.DriverSetUp  - On test start
 [main] INFO  automation_practice.Pages.Home  - I am searching for dress
@@ -89,14 +62,30 @@ Session ID: 34da7aec1dd79730796086643df38dcc
 [main] INFO  automation_practice.Pages.SearchResults  - I am checking that search page opened correctly
 [main] INFO  automation_practice.Pages.SearchResults  - Search page opened correctly
 [main] INFO  automation_practice.Pages.SearchResults  - I am adding a dress to a shopping cart
+[main] INFO  automation_practice.Pages.SearchResults  - Dress added
+[main] INFO  automation_practice.Pages.SearchResults  - I am opening a shopping cart
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking that shopping cart opened correctly
+[main] INFO  automation_practice.Pages.ShoppingCart  - Shopping cart opened correctly
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking size of shopping cart
+[main] INFO  automation_practice.Pages.ShoppingCart  - Size checked
 [main] INFO  automation_practice.Configuration.DriverSetUp  - On test quit
-[main] INFO  automation_practice.Helpers.MyListener  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (34da7aec1dd79730796086643df38dcc)] -> xpath: //a[@class='quick-view']] (tried for 10 second(s) with 1000 milliseconds interval)
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: unknown
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
-[main] INFO  automation_practice.Helpers.MyListener  - Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (34da7aec1dd79730796086643df38dcc)] -> xpath: //a[@class='quick-view']] (tried for 10 second(s) with 1000 milliseconds interval)
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'RWAMW031586', ip: '10.113.175.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: unknown
-[main] INFO  automation_practice.Helpers.MyListener  - Test failed. I am going to make a screenshot
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Configuration.DriverSetUp  - On test start
+[main] INFO  automation_practice.Pages.Home  - I am searching for dress
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.SearchResults  - I am checking that search page opened correctly
+[main] INFO  automation_practice.Pages.SearchResults  - Search page opened correctly
+[main] INFO  automation_practice.Pages.SearchResults  - I am adding a dress to a shopping cart
+[main] INFO  automation_practice.Pages.SearchResults  - Dress added
+[main] INFO  automation_practice.Pages.SearchResults  - I am adding another dress to a shopping cart
+[main] INFO  automation_practice.Pages.SearchResults  - Another dress added
+[main] INFO  automation_practice.Pages.SearchResults  - I am opening a shopping cart
+[main] INFO  automation_practice.Pages.BasePage  - Elements on page initiated
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking that shopping cart opened correctly
+[main] INFO  automation_practice.Pages.ShoppingCart  - Shopping cart opened correctly
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking if there is only one item in shopping cart
+[main] INFO  automation_practice.Pages.ShoppingCart  - There is more than one item
+[main] INFO  automation_practice.Pages.ShoppingCart  - I am checking how many items selected
+[main] INFO  automation_practice.Pages.ShoppingCart  - The number of items checked
+[main] INFO  automation_practice.Configuration.DriverSetUp  - On test quit

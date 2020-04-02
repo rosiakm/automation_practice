@@ -1,59 +1,58 @@
 package automation_practice.Tests;
 
 import automation_practice.Configuration.DriverSetUp;
-import automation_practice.Helpers.MyTestRunner;
-import automation_practice.Pages.Home;
+import automation_practice.Pages.*;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
-@RunWith(MyTestRunner.class)
 public class ShoppingCartTest extends DriverSetUp
 {
     Home home = new Home();
+    SearchResults searchResults = new SearchResults();
+    ShoppingCart shoppingCart = new ShoppingCart();
 
     @Test
     public void addingProductTest()
     {
-        home.openSearchResults()
-            .checkThatSearchPageOpened()
-            .addToCart()
-            .openShoppingCart()
-            .checkThatShoppingCartOpened()
-            .checkTheSizeOfShoppingCart();
+        home.openSearchResults();
+        searchResults.checkThatSearchPageOpened();
+        searchResults.addToCart();
+        searchResults.openShoppingCart();
+        shoppingCart.checkThatShoppingCartOpened();
+        shoppingCart.checkTheSizeOfShoppingCart();
     }
 
     @Test
     public void addingTwoTheSameProductsTest()
     {
-        home.openSearchResults()
-            .checkThatSearchPageOpened()
-            .addToCart()
-            .addToCart()
-            .openShoppingCart()
-            .checkThatShoppingCartOpened()
-            .checkTheSizeOfShoppingCartWithSomeProducts();
+        home.openSearchResults();
+        searchResults.checkThatSearchPageOpened();
+        searchResults.addToCart();
+        searchResults.addToCart();
+        searchResults.openShoppingCart();
+        shoppingCart.checkThatShoppingCartOpened();
+        shoppingCart.checkTheSizeOfShoppingCartWithSomeProducts();
     }
 
     @Test
     public void addingTwoDifferentProductsTest()
     {
-        home.openSearchResults()
-            .checkThatSearchPageOpened()
-            .addToCart()
-            .addDifferentProductToCart()
-            .openShoppingCart()
-            .checkThatShoppingCartOpened()
-            .checkTheSizeOfShoppingCartWithSomeProducts();
+        home.openSearchResults();
+        searchResults.checkThatSearchPageOpened();
+        searchResults.addToCart();
+        searchResults.addDifferentProductToCart();
+        searchResults.openShoppingCart();
+        shoppingCart.checkThatShoppingCartOpened();
+        shoppingCart.checkTheSizeOfShoppingCartWithSomeProducts();
     }
 
     @Test
     public void deletingProductTest()
     {
-        home.openSearchResults()
-            .checkThatSearchPageOpened()
-            .addToCart()
-            .openShoppingCart()
-            .deleteItemFromShoppingCart()
-            .checkThatShoppingCartIsEmpty();
+        home.openSearchResults();
+        searchResults.checkThatSearchPageOpened();
+        searchResults.addToCart();
+        searchResults.openShoppingCart();
+        shoppingCart.deleteItemFromShoppingCart();
+        shoppingCart.checkThatShoppingCartIsEmpty();
     }
 }

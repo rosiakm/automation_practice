@@ -38,11 +38,11 @@ public class SearchResults extends BasePage
     Logger logger = Logger.getLogger(SearchResults.class);
 
     @Step
-    public SearchResults addToCart()
+    public void addToCart()
     {
         logger.info("I am adding a dress to a shopping cart");
         Actions actions = new Actions(DriverFactory.getDriver());
-        for (int i = 1; i <= 3;)
+        for (int i = 1; i <= 3; i++)
         {
             actions.moveToElement(firstProductImage).perform();
             WaitForElement.WaitForElementToBeDisplayed(firstProductViewButton);
@@ -50,10 +50,6 @@ public class SearchResults extends BasePage
             {
                 firstProductViewButton.click();
                 break;
-            }
-            else
-            {
-                i++;
             }
         }
         DriverFactory.getDriver().switchTo().frame(0);
@@ -65,11 +61,10 @@ public class SearchResults extends BasePage
         WaitForElement.WaitForElementToBeDisplayed(continueShoppingButton);
         continueShoppingButton.click();
         logger.info("Dress added");
-        return this;
     }
 
     @Step
-    public SearchResults addDifferentProductToCart()
+    public void addDifferentProductToCart()
     {
         logger.info("I am adding another dress to a shopping cart");
         Actions actions = new Actions(DriverFactory.getDriver());
@@ -79,26 +74,23 @@ public class SearchResults extends BasePage
         WaitForElement.WaitForElementToBeDisplayed(continueShoppingButton);
         continueShoppingButton.click();
         logger.info("Another dress added");
-        return this;
     }
 
     @Step
-    public ShoppingCart openShoppingCart()
+    public void openShoppingCart()
     {
         logger.info("I am opening a shopping cart");
         viewMyShoppingCartButton.click();
         Screenshots.takeScreenshot(DriverFactory.getDriver());
-        return new ShoppingCart();
     }
 
     @Step
-    public SearchResults checkThatSearchPageOpened()
+    public void checkThatSearchPageOpened()
     {
         logger.info("I am checking that search page opened correctly");
         String actualPageHeader = navigator.getText();
         String expectedPageHeader = "Search";
         assertThat(actualPageHeader).contains(expectedPageHeader);
         logger.info("Search page opened correctly");
-        return this;
     }
 }
